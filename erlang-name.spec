@@ -32,7 +32,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 {{description}}
 
 %prep
-%setup -q
+%setup -q -n %{app_name}-%{version}
 
 %build
 %rebar compile
