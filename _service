@@ -10,6 +10,5 @@
 		<param name="file">*.tar</param>
 	</service>
 	<service name="set_version" mode="disabled">
-		<param name="basename">{{name}}</param>
 	</service>
 </services>
