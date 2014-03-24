@@ -25,6 +25,7 @@ Summary:        {{summary}}
 Url:            {{url}}
 Group:          Development/Libraries/Other
 Source:         %{app_name}-%{version}.tar.bz2
+Requires:       erlang
 BuildRequires:  erlang erlang-rebar
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 
